@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: davidlacho-dev-tls
+spec:
+  secretName: davidlacho-dev
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: davidlacho.dev
+  dnsNames:
+    - davidlacho.dev
+    - www.davidlacho.dev
