@@ -6,8 +6,8 @@ jobs:
   npm-test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build dockerfile
-      run: docker build -t davidlacho/react-test -f ./client/Dockerfile.dev ./client
-    - name: Run tests
-      run: docker run -e CI=true davidlacho/react-test npm test
+#    - uses: actions/checkout@v2
+#    - name: Build dockerfile
+#      run: docker build -t davidlacho/react-test -f ./client/Dockerfile.dev ./client
+#    - name: Run tests
+#      run: docker run -e CI=true davidlacho/react-test npm test
