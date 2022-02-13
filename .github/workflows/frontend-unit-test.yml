@@ -1,9 +1,9 @@
-name: Frontend unit tests
+name: Frontend Unit Tests
 
 on: [push]
 
 jobs:
-  unit-test:
+  npm-test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
