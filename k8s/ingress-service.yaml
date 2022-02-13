@@ -14,7 +14,7 @@ spec:
     - hosts:
         - davidlacho.dev
         - www.davidlacho.dev
-      secretName: davidlacho-dev
+      secretName: davidlacho-dev-tls
   rules:
     - host: davidlacho.dev
       http:
