@@ -1,8 +1,8 @@
-apiVersion: cert-manager.io/v1
+apiVersion: cert-manager.io/v1alpha2
 kind: Certificate
 metadata:
   name: davidlacho-dev-tls
-  namespace: default
+  namespace: cert-manager
 spec:
   secretName: davidlacho-dev
   issuerRef:
